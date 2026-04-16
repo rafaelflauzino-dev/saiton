@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nexa Studio",
+  title: "Saiton - Soluções de Software Personalizadas",
   description: "Landing page com navbar responsiva em Next.js e Tailwind CSS v4",
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-screen flex flex-col bg-black text-white">
+      <body className="min-h-screen bg-black text-white">
         <Navbar />
         {children}
       </body>
