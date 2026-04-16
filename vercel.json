@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/rafaelflauzino/",
+      "destination": "/rafaelflauzino",
+      "permanent": true
+    },
+    {
+      "source": "/igorcruz/",
+      "destination": "/igorcruz",
+      "permanent": true
+    },
+    {
+      "source": "/eltoncandido/",
+      "destination": "/eltoncandido",
+      "permanent": true
+    }
+  ]
+}
