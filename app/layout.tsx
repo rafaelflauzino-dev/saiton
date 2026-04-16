@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Saiton - Soluções de Software Personalizadas",
   description: "Landing page com navbar responsiva em Next.js e Tailwind CSS v4",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ea580c",
 };
 
 export default function RootLayout({
